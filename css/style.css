@@ -276,12 +276,11 @@ a.learn-more {
     }
     .product-img{
         padding-right: 0px;
-        padding-top: 20px;
         width: 60%;
     }
     
     .product{
-        
+        padding-top: 20px;
     }
     .navbar-collapse{
     background-color: white;
@@ -303,3 +302,60 @@ a.learn-more {
     background-color: transparent;
     color: black;
 }
+
+.back-button {
+    margin-bottom: 35px;
+}
+
+.product-title {
+    padding-top: 70px;
+}
+
+.left-align{
+    text-align: left;
+}
+
+.explain-text {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.product-page-image {
+    width: 85%;
+    display: block;
+}
+
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+a.ask-button {
+     padding-bottom: 40px;
+    line-height: 45px;
+    color: #43649f;
+    font-weight: 600;
+    font-size: 15px;
+    border: 2px solid #43649f;
+    background: transparent;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 300ms linear 0s;
+    padding: 0 135px;
+}
+
+
+
+.explain-title {
+    text-decoration: underline;
+}
+
+
