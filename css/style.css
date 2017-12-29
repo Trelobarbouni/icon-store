@@ -21,6 +21,14 @@ button{
     padding-bottom: 40px;
 }
 
+a{
+    color: #bc9659;
+}
+
+a:hover{
+    color: #91713e;
+}
+
 .navbar-left>li{
     padding-right: 25px;
 }
@@ -73,7 +81,7 @@ div.relative{
 }
 
 .product-img {
-    border: 1px solid #375282;
+    border: 1px solid #bc9659;
     box-shadow: 0px 0px 8px 0px #7e7e7e;
 }
 
@@ -92,6 +100,7 @@ div.relative{
 }
 
 .footer-backround {
+    background-image: url("/img/bg.png");
     background-color: #222222;
 }
 
@@ -124,10 +133,10 @@ div.relative{
 a.learn-more {
     padding-bottom: 40px;
     line-height: 45px;
-    color: #43649f;
+    color: #bc9659;
     font-weight: 600;
     font-size: 15px;
-    border: 2px solid #43649f;
+    border: 2px solid #bc9659;
     background: transparent;
     display: inline-block;
     text-transform: uppercase;
@@ -136,6 +145,19 @@ a.learn-more {
     padding: 0 20px;
 }
 
+a.back-link {
+    padding-bottom: 40px;
+    line-height: 45px;
+    color: #bc9659;
+    font-weight: 600;
+    font-size: 15px;
+    background: transparent;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 300ms linear 0s;
+    text-decoration: underline;
+}
 .about-content {
     padding-top: 50px;
 }
@@ -151,7 +173,7 @@ a.learn-more {
 }
 
 .email-form {
-    border: 2px solid #43649f;
+    border: 2px solid #bc9659;
     padding-right: 122px;
     line-height: 59px;
     height: 43px;
@@ -163,8 +185,8 @@ a.learn-more {
 
 .email-button {
     color: #fff;
-    background: #43649f;
-    border: 1px solid #43649f;
+    background: #bc9659;
+    border: 1px solid #bc9659;
     top: 0;
     right: 0;
     padding: 10px 32px;
@@ -231,8 +253,8 @@ a.learn-more {
 }
 
 .featured-products {
-    padding-top: 60px;
     padding-bottom: 20px;
+    margin-left: 30px;
 }
 
 .header-text {
@@ -306,9 +328,7 @@ a.learn-more {
     color: black;
 }
 
-.back-button {
-    margin-bottom: 35px;
-}
+
 
 .product-title {
     padding-top: 70px;
@@ -347,10 +367,10 @@ a.learn-more {
 a.ask-button {
      padding-bottom: 40px;
     line-height: 45px;
-    color: #43649f;
+    color: #bc9659;
     font-weight: 600;
     font-size: 15px;
-    border: 2px solid #43649f;
+    border: 2px solid #bc9659;
     background: transparent;
     display: inline-block;
     text-transform: uppercase;
@@ -375,7 +395,7 @@ a.ask-button {
 
 .number-input {
     width: 80px;
-    border: 1px solid #43649f;
+    border: 1px solid #bc9659;
     padding-left: 10px;
     background: transparent;
     border-radius: 0;
@@ -395,10 +415,10 @@ a.ask-button {
     background-color: #f7f7f7;
     margin-top: 60px;
     margin-bottom: 30px;
-    padding: 20px;
+    padding: 25px;
     border-style: solid;
     border-width: 1px;
-    border-color: #43649f;
+    border-color: #bc9659;
     padding-top: 10px;
 }
 
@@ -407,14 +427,17 @@ a.ask-button {
 }
 
 .tab-title {
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: 400;
 }
 
 
 
 .price {
-    padding-top: 10px;
-    color: #43649f;
+    padding-bottom: 10px;
+    color: #bc9659
 }
 
 .pricing {
@@ -438,16 +461,45 @@ hr {
 }
 
 .nav-tabs {
-    border-bottom: 1px solid #43649f;
+    border-bottom: 1px solid #bc9659;
 }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    border: 1px solid #43649f;
+    border: 1px solid #bc9659;
     border-bottom-color: transparent;
 
 }
 
 .nav-tabs > li > a:hover {
     border-color: transparent;
-    border-bottom-color: #43649f;
+    border-bottom-color: #bc9659;
+}
+.tab-content {
+    border-bottom: solid;
+    border-left: solid;
+    border-right: solid;
+    border-width: 1px;
+    border-color: #bc9659;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    background-color: #fff;
+
+}
+
+.selector-values>h4 {
+    padding-top: 5px;
+}
+
+.second-row {
+    margin-top: 50px;
+}
+
+.products-content {
+    
+}
+
+.best-selling {
+    margin-right: 30px;
 }
