@@ -512,7 +512,7 @@ hr {
 .category-box {
     border: 1px solid #bc9659;
     padding-bottom: 597px;
-    background: radial-gradient(ellipse closest-side, #e8e8e8 70px, #e3e3e3);
+    background: #222222;
     background-position: center;
 }
 
@@ -522,6 +522,7 @@ hr {
 
 .categories {
     text-align: center;
+    color: white;
 }
 
 .category-list {
@@ -529,6 +530,7 @@ hr {
     margin-top: 30px;
     margin-bottom: 30px;
     padding-left: 50px;
+    color: white;
 }
 
 .category-list > li{
