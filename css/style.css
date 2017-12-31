@@ -512,7 +512,7 @@ hr {
 .category-box {
     border: 1px solid #bc9659;
     padding-bottom: 597px;
-        background: radial-gradient(ellipse closest-side, #ededed 50px, #dcdbda);
+    background: #f4f4f4;
     background-position: center;
 }
 
