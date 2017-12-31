@@ -503,3 +503,90 @@ hr {
 .best-selling {
     margin-right: 30px;
 }
+
+.header-2 {
+    background: radial-gradient(ellipse closest-side, #ededed 50px, #dcdbda);
+    background-position: center; 
+}
+
+.category-box {
+    border: 1px solid #bc9659;
+}
+
+.content {
+    margin-top: 70px;
+}
+
+.categories {
+    text-align: center;
+}
+
+.category-list {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 50px;
+}
+
+.category-list > li{
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.search-form {
+    width: 80%;
+    border: 1px solid #bc9659;
+}
+
+.result-text {
+    text-align: left;
+    padding: 0;
+}
+
+.filters {
+    margin-top: 30px;
+}
+
+.show-dropdown {
+    text-align: center;
+}
+
+.sorting-dropdown {
+    text-align: right;
+}
+
+.search-button {
+    width: 20%;
+}
+
+.products {
+    margin-top: 30px;
+}
+
+.showing-text {
+    text-align: right;
+}
+
+.pagination > .active > a {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #bc9659;
+    border-color: #bc9659;
+}
+
+.pagination > li > a{
+    color: #666;
+}
+
+.pagination > .active > a:hover{
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #91713e;
+    border-color: #91713e;
+}
+
+.pagination > li > a:hover{
+    color: #666;
+}
