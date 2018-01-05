@@ -183,6 +183,15 @@ a.back-link {
     font-size: 16px;
 }
 
+.left-img {
+    margin-right: 15%
+}
+
+.right-img {
+    margin-left: 15%;
+}
+
+
 .email-button {
     color: #fff;
     background: #bc9659;
@@ -324,6 +333,14 @@ a.back-link {
     
     .textarea{
         margin-top: -40px;
+    }
+    
+    .left-img{
+        margin: auto;
+    }
+    
+    .right-img{
+        margin: auto;
     }
     
 }
@@ -516,6 +533,9 @@ hr {
 
 .best-selling {
     margin-right: 30px;
+    border-right: 1px solid #cecece;
+    margin-right: 0px;
+    padding-right: 30px;
 }
 
 .header-2 {
@@ -623,7 +643,7 @@ hr {
 
 .index-content {
     margin-bottom: 70px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .subpage-content {
@@ -706,4 +726,145 @@ hr {
 .padding-manufacturing {
     padding-top: 70px;
     padding-bottom: 110px;
+}
+
+.hat-image {
+    border: 4px solid #ffffff;
+    box-shadow: 0px 0px 5px 0px #d1d1d1;
+}
+
+.thumbnails {
+    margin-right: 65px;
+    margin-top: 20px;
+}
+
+.thumbnails >div {
+    padding-right: 0;
+}
+
+
+
+.hat-btn {
+    top: 23%;
+}
+
+.step {
+    padding: 0;
+    text-align: left;
+    padding-top: 4px;
+}
+
+.step-group {
+    margin-top: 15px;
+}
+
+.steps {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.img-calculating {
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-top: 70px;
+}
+
+.calculating {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.size-chart {
+    padding-top: 50px;
+    background-color: #dcdbda;
+    padding-bottom: 50px;
+}
+
+.table-chart {
+        display: block;
+    margin: auto;
+    margin-top: 70px;
+}
+.first-row-index {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.iconostasis-header {
+    padding-bottom: 120px;
+    padding-top: 230px;
+}
+
+.work {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.work-group {
+    margin-top: 50px;
+}
+
+.icon-as {
+    border-right: 1px solid #cecece;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.iconostasis-as {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.process-numbering {
+    width: 35px;
+    margin: auto;
+    display: block;
+    margin-top: 70%;
+}
+
+.process-img {
+    display: block;
+    margin: auto;
+    width: 65%;
+}
+
+.process-text {
+    padding-bottom: auto;
+    padding-top: auto;
+    display: block;
+    text-align: left;
+}
+
+.process-group {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.process-group > .row{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sub-process {
+    padding: 0;
+    text-align: left;
+}
+
+.quality-text {
+    padding-bottom: 0;
+}
+
+
+
+.portfolio-text {
+    padding: 0;
+    text-align: left
+}
+
+.portfolio-row {
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
