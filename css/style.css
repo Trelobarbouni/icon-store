@@ -954,3 +954,18 @@ hr {
 .apple-app {
     margin-top: 15px;
 }
+
+.sub-image {
+    margin-top: 41px;
+}
+
+.share {
+    margin-top: 10px;
+}
+
+.icons {
+    margin-top: 12px;
+}
+.icons>a {
+    margin-right: 12px;
+}
