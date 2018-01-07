@@ -183,6 +183,15 @@ a.back-link {
     font-size: 16px;
 }
 
+.email-form:enabled{
+    padding-left: 20px;
+    color: white;
+}
+
+.email-form::placeholder{
+    color: white;
+}
+
 .left-img {
     margin-right: 15%
 }
@@ -203,11 +212,6 @@ a.back-link {
     text-transform: uppercase;
     padding-top: 11px;
     padding-bottom: 9px;
-}
-
-::placeholder { /* Most modern browsers support this now. */
-   color: white;
-    padding-left: 20px;
 }
 
 .email-form-group {
@@ -270,90 +274,6 @@ a.back-link {
     padding-top: 100px;
     }
 
-
-@media (min-width: 768px) and (max-width: 1200px) {
-    .navbar-collapse.collapse {
-        display: none !important;
-    }
-    .navbar-collapse.collapse.in {
-        display: block !important;
-    }
-    .navbar-header .collapse, .navbar-toggle {
-        display:block !important;
-    }
-    
-    .navbar-collapse{
-    background-color: white
-    }
-    
-    .navbar-header {
-        float:none;
-    }
-    
-    .header-text {
-    padding-top: 40px;
-    }
-}
-
-@media (max-width: 768px) {
-    .icon-image{
-        width: 45%;
-    }
-    .header-text{
-        padding-top: 20px;
-    }
-    .steps-img{
-        padding: 40px;
-    }
-    .product-img{
-        padding-right: 0px;
-        width: 60%;
-    }
-    
-    .product{
-        padding-top: 20px;
-    }
-    .navbar-collapse{
-    background-color: white;
-        text-align: center;
-    }
-    .product-selector{
-        text-align: center;
-    }
-    
-    .name-form{
-        margin-bottom: 30px;
-        padding-right: 0;
-    }
-    
-    .emailc-form{
-        margin-bottom: 30px;
-        padding-left: 0;
-    }
-    
-    .textarea{
-        margin-top: -40px;
-    }
-    
-    .left-img{
-        margin: auto;
-    }
-    
-    .right-img{
-        margin: auto;
-    }
-    
-}
-
- @media (max-width : 992px) {
-     .email-form{
-         padding-right: 0px;
-     }
-     .footer-menu{
-         padding-left: 120px;
-     }
-}
-
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active {
     background-color: transparent;
     color: black;
@@ -371,6 +291,7 @@ a.back-link {
 
 .center-align{
     text-align: center;
+    margin-left: 5px;
 }
 
 .explain-text {
@@ -567,7 +488,7 @@ hr {
 
 .category-list > li{
     list-style-type: none;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .search-form {
@@ -661,6 +582,11 @@ hr {
     width: 100%;
 }
 
+.contact-form::placeholder {
+    color: #666;
+}
+
+
 .text-input {
     text-align: center;
     margin-top: 70px;
@@ -678,12 +604,16 @@ hr {
     width: 50%;
 }
 
-.search-form::placeholder{
+.search-form:enabled{
    color: #444;
     padding-left: 20px;
 }
 
-.textarea::placeholder{
+.search-form::placeholder{
+   color: #444;
+}
+
+.textarea:enabled{
    color: #444;
     padding-left: 20px;
     padding-top: 15px;
@@ -692,6 +622,10 @@ hr {
 
 .name-form {
     padding-left: 0;
+}
+
+.name-form::placeholder {
+     color: #444;
 }
 
 .emailc-form {
@@ -969,3 +903,351 @@ hr {
 .icons>a {
     margin-right: 12px;
 }
+
+.hover:hover {
+    opacity: 0.8;
+}
+
+.unfilled:hover{
+    color: white;
+    background-color: #bc9659;
+}
+
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    
+    .navbar-collapse{
+    background-color: white
+    }
+    
+    .navbar-header {
+        float:none;
+    }
+    
+    .header-text {
+    padding-top: 40px;
+    }
+}
+
+ @media (max-width : 992px) {
+     .email-form{
+         padding-right: 0px;
+     }
+     .footer-menu{
+         padding-left: 120px;
+     }
+     .header-head-image{
+         width: 120%;
+     }
+     .header-hat{
+         margin-top: 50px;
+     }
+}
+
+@media (max-width: 768px) {
+    .icon-image{
+        width: 45%;
+    }
+    .header-text{
+        padding-top: 20px;
+    }
+    .steps-img{
+        padding: 40px;
+    }
+    .product-img{
+        padding-right: 0px;
+        width: 60%;
+    }
+    
+    .product{
+        padding-top: 20px;
+    }
+    .navbar-collapse{
+    background-color: white;
+        text-align: center;
+    }
+    .product-selector{
+        text-align: center;
+    }
+    
+    .name-form{
+        margin-bottom: 30px;
+        padding-right: 0;
+    }
+    
+    .emailc-form{
+        margin-bottom: 30px;
+        padding-left: 0;
+    }
+    
+    .textarea{
+        margin-top: -40px;
+    }
+    
+    .left-img{
+        margin: auto;
+    }
+    
+    .right-img{
+        margin: auto;
+    }
+    
+    .iconostasis-header-img{
+        margin-top: 40px;
+    }
+    
+    .best-selling{
+        padding-right: 0px;
+    }
+    .featured-products{
+        margin-left: 0px;
+    }
+    
+    .second-row{
+        margin-top: 0px;
+    }
+    
+    .header-hat
+    {
+        display: none;
+    }
+    
+    .header-head-image{
+        width: 50%;
+        margin-top: 30px;
+    }
+    .app-group{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    
+    .products-header{
+        margin-top: 50px;
+    }
+    .dropdown{
+        text-align: left;
+        margin-top: 10px;
+    }
+    .products{
+        text-align: center;
+    }
+    
+    .product-img{
+        margin-bottom: 10px;
+    }
+    
+    .process-numbering {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .process-text{
+        text-align: center;
+    }
+    
+    .notes{
+        margin-top: 1px;
+    }
+}
+
+
+.contain {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 15px;
+    font-weight: 400;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.contain input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #f5f5f5;
+}
+
+/* On mouse-over, add a grey background color */
+.contain:hover input ~ .checkmark {
+  background-color: #ebebeb;
+}
+
+/* When the checkbox is checked, add a blue background */
+.contain input:checked ~ .checkmark {
+  background-color: #eaeaea;
+    border: 1px solid #bc9659;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.contain input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.contain .checkmark:after {
+  left: 6px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid #bc9659;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+-------------------------------------
+
+/* The container */
+.radio-inline {
+    display: block;
+    position: relative;
+    padding-left: 55px;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-inline input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.dot {
+    position: absolute;
+    top: 20%;
+    left: -4%;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-inline:hover input ~ .dot {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-inline input:checked ~ .dot {
+    background-color: #bc9659;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.dot:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-inline input:checked ~ .dot:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-inline .dot:after {
+ 	top: 6px;
+	left: 6px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+.input-container {
+    background-color: white;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.quote-title {
+    text-align: left;
+}
+
+.quote-inputs {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.second-input-container {
+    margin-top: 50px;
+}
+
+.upload {
+    background-color: #e8e8e8;
+    border: 2px dashed #afafaf;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.upload-title {
+    text-align: center;
+
+}
+
+.or {
+ padding: 0;
+}
+
+
+
+.upload-button {
+    text-align: center;
+}
+
+.inside-upload {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.icons-group {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.upload-submit-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
