@@ -702,7 +702,7 @@ hr {
 .img-calculating {
     display: block;
     margin: auto;
-    width: 90%;
+    width: 80%;
     margin-top: 70px;
 }
 
@@ -1251,3 +1251,55 @@ hr {
     margin-top: 30px;
 }
 
+.carousel-control.left {
+    background-image: none;
+    margin-left: -150px;
+    border: none;
+    color: #bc9659;
+    opacity: 1;
+}
+
+.carousel-control.right {
+    background-image: none;
+    margin-right: -150px;
+    border: none;
+    color: #bc9659;
+    opacity: 1;
+}
+
+.technique-header-img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-left{
+    float: left;
+    margin-right: 20px;
+}
+
+.img-right{
+    float: right;
+    margin-left: 20px;
+}
+.tec-1 {
+    width: 20%;
+}
+
+.tec-8 {
+    width: 15%;
+}
+
+.tec-10 {
+    width: 20%;
+}
+
+.tec-11 {
+    width: 20%;
+}
+
+.tec-12 {
+    width: 25%;
+}
